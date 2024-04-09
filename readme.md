@@ -42,7 +42,7 @@ or
 
 `I am using 1panel's reverse proxy here. If you are using BT panel, you can also use its reverse proxy. I won't go into details here.`
 
-1. Create a new website, select reverse proxy, fill in your domain name, set the frontend request path to `/api`, name it `root` (you can name it anything), fill in your server address for the proxy address, set the port to `claude.ai`, select HTTPS, and save.
+1. Create a new website, select reverse proxy, fill in your domain name, fill in / for the front-end request path, fill in root for the name (you can also write whatever you want), fill in claude.ai for the proxy address, select https, and save
 2. Configure an SSL certificate for your domain name. (I won't elaborate on this. If you don't know how, please search on Google.)
 3. Modify the reverse proxy configuration file:
     - Click on "Reverse Proxy"
